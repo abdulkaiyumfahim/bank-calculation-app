@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+**React Bank Loan Calculator**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application provides a fully functional loan calculator to calculate monthly payments and total interest.
 
-## Available Scripts
+**Features:**
 
-In the project directory, you can run:
+- Calculate monthly payments based on loan amount, down payment, loan term, and interest rate.
+- Display total interest paid over the loan term.
+- Update calculations in real-time as input values change.
 
-### `yarn start`
+**Getting Started:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository and install the dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
 
-### `yarn test`
+git clone https://github.com/kaiyumdev/bank-calculation-app
+cd bank-calculation-app
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `yarn build`
+2. Run the application:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Usage:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Enter the following information:
 
-### `yarn eject`
+  - Total amount: The total cost of the purchase.
+  - Down payment: The amount paid upfront.
+  - Loan amount: The amount borrowed.
+  - Interest rate: The annual interest rate on the loan.
+  - Loan term: The number of years over which the loan will be repaid.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Click the "Calculate" button to see the monthly payment and total interest paid.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Readme.md File:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**React Bank Loan Calculator**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Installation:**
 
-## Learn More
+- Clone the repository.
+- Install the dependencies using npm.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Usage:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Run the application using npm start.
+- Enter the loan parameters in the form.
+- Click the "Calculate" button to display the monthly payment and total interest.
 
-### Code Splitting
+**Features:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Calculates monthly payments and total interest.
+- Real-time updates as input values change.
 
-### Analyzing the Bundle Size
+**Contribution Guidelines:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Fork the repository.
+- Create a feature branch.
+- Make changes and add tests.
+- Submit a pull request.
 
-### Making a Progressive Web App
+**License:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
