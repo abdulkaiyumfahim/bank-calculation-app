@@ -16,14 +16,14 @@ This React application provides a fully functional loan calculator to calculate 
 
 git clone https://github.com/kaiyumdev/bank-calculation-app
 cd bank-calculation-app
-npm install
+npm install or yarn
 
 ```
 
 2. Run the application:
 
 ```
-npm start
+npm start or yarn dev
 ```
 
 **Usage:**
@@ -64,7 +64,3 @@ npm start
 - Create a feature branch.
 - Make changes and add tests.
 - Submit a pull request.
-
-**License:**
-
-This project is licensed under the MIT License.
