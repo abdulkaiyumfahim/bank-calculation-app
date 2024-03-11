@@ -6,8 +6,6 @@ import { Pie } from "react-chartjs-2";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const Result = ({ data }) => {
-  // console.log(data.interestRate);
-  // console.log(data.loanAmount);
   const { homeValue, loanAmount, loanTerm, interestRate } = data;
 
   const totalLoanMonths = loanTerm * 12;
